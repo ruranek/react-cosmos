@@ -2,7 +2,7 @@ import importModule from 'react-cosmos-utils/lib/import-module';
 
 // TODO: Improve ReactComponent check!
 const isReactComponent = component =>
-  typeof component === 'string' || typeof component === 'function';
+  typeof component === 'string' || typeof component === 'function' || typeof component === 'object';
 
 /**
  * Input example:
@@ -23,7 +23,7 @@ export function loadComponents(components) {
     if (!component || !isReactComponent(component)) {
       console.warn(`'${name}' is not a valid React component`);
     } else {
-      result[name] = component;
+      result[name] = component.default ? component.default : component;
     }
   });
 
