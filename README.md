@@ -1,3 +1,11 @@
+### Instalacja i uruchamianie:
+
+- npm run git-update-submodules
+- w folderze `lib/react-cosmos/packages/react-cosmos-webpack` uruchomić polecenia `npm install`
+- uruchomianie poprzez `npm run cosmos` z głównego folderu
+- przykładowy komponent to CosmosTest
+
+<!--
 <p align="center">
   <img alt="Cosmos" src="cosmos-150.png">
 </p>
@@ -334,3 +342,4 @@ export default () => {
 This project welcomes all. Check out the [Contributing Guide](CONTRIBUTING.md) to read about the project's mission and how to get involved. Ask anything on [Slack](https://join-react-cosmos.now.sh/). Let's make UI development fun!
 
 Thanks to [Kreativa Studio](http://www.kreativa-studio.com/) for the Cosmos logo.
+-->
