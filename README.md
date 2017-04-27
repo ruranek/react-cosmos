@@ -1,6 +1,6 @@
 ### Instalacja i uruchamianie:
 
-- npm run git-update-submodules
+- `npm run git-update-submodules`
 - w folderze `lib/react-cosmos/packages/react-cosmos-webpack` uruchomić polecenia `npm install`
 - uruchomianie poprzez `npm run cosmos` z głównego folderu
 - przykładowy komponent to CosmosTest
